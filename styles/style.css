@@ -1,0 +1,240 @@
+body {
+    background-image: url( '../assets/images/background.png' );
+    background-size: cover;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+
+ #about, #education, #contact-me {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ 
+#photo {
+    width: 45%;
+}
+
+ h2, h3, h4, p, li, footer {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #331A01;
+    margin-top: 0;
+}
+
+ h1 {
+    color: #331A01;
+    font-family: 'Abril Fatface';
+    font-size: 5rem;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.container {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+h2 {
+    font-style: bold;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.div-education {
+    display: flex;
+}
+
+#education .container {
+    flex-direction: column;
+    align-items: start;
+}
+
+.universities {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#education h1 {
+    margin-bottom: 9rem;
+}
+
+.subject {
+    display: flex;
+    align-items: start;
+}
+
+.study-details {
+    padding: 10px;
+    padding-left: 2rem;
+}
+
+.computer-science {
+    margin-bottom: 3rem;
+}
+
+p.uni {
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 1rem;
+    margin: 0;
+}
+
+li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+a {
+    margin-right: 7rem;
+}
+
+#contact-me h1 {
+    margin-bottom: 6rem;
+}
+
+#contact-me p {
+    line-height: 3rem;
+    margin-bottom: 6rem;
+}
+
+#contact-me .container {
+    flex-direction: column;
+}
+
+footer {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    #about, #about .container {
+        flex-direction: column;
+    }
+
+    #photo {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .div-description {
+        align-items: center;
+        margin-left: 0;
+    }
+    
+    .div-description p {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #education .container {
+        align-items: center;
+    }
+
+    #education h1 {
+        margin-bottom: 3rem;
+    }
+
+    .universities {
+        width: 100%;
+    }
+
+    .div-education {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3, h4, p.uni {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        margin: 2rem;
+        text-align: center;
+    }
+
+    li {
+        font-size: 1.2rem;
+        display:inline-block;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    #contact-me h1  {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    #contact-me p {
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    a {
+        margin: 0;
+    }
+  }
